@@ -11,12 +11,22 @@ Upload the .json and .py files to simulate the projects.
 
 ---
 
+## [LCD Screen](src/tutorials/ssd1306_oled_screen)
 ![LCD Screen](src/tutorials/ssd1306_oled_screen/001/project/002.webp)
 
+---
+
+## [HC-SR04 Ultrasonic Distance Sensor](src/tutorials/hc-sr04_ultrasonic_distance_sensor)
 ![HC-SR04 Ultrasonic Distance Sensor](src/tutorials/hc-sr04_ultrasonic_distance_sensor/001/project/001.webp)
 
+---
+
+# [PIR Motion Light](src/tutorials/pir_motion_light)
 ![PIR Motion Light](src/tutorials/pir_motion_light/001/project/001.webp)
 
+--- 
+
+## [Servo Day or Night](src/tutorials/servo_day_or_night)
 ![Servo Day or Night](src/tutorials/servo_day_or_night/001/project/001.webp)
 
 ---
