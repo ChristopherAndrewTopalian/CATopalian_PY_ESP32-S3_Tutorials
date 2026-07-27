@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-s3-devkitc-1",
+      "id": "esp",
+      "top": 9.42,
+      "left": 14.17,
+      "attrs": { "env": "micropython-20260406-v1.28.0", "flashSize": "8" }
+    },
+    {
+      "type": "wokwi-servo",
+      "id": "servo1",
+      "top": 170,
+      "left": -189.2,
+      "rotate": 180,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr1",
+      "top": 22.4,
+      "left": -181.6,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "servo1:V+", "esp:5V", "green", [ "h0" ] ],
+    [ "servo1:PWM", "esp:13", "green", [ "h0" ] ],
+    [ "ldr1:VCC", "esp:3V3.2", "red", [ "h0" ] ],
+    [ "ldr1:GND", "esp:GND.2", "black", [ "h0" ] ],
+    [ "ldr1:AO", "esp:4", "green", [ "h0" ] ],
+    [ "servo1:GND", "esp:GND.1", "black", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
