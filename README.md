@@ -11,8 +11,8 @@ Upload the .json and .py files to simulate the projects.
 
 ---
 
-## [LCD Screen](src/tutorials/ssd1306_oled_screen)
-![LCD Screen](src/tutorials/ssd1306_oled_screen/001/project/002.webp)
+## [OLED Screen](src/tutorials/ssd1306_oled_screen)
+![OLED Screen](src/tutorials/ssd1306_oled_screen/001/project/002.webp)
 
 ---
 
