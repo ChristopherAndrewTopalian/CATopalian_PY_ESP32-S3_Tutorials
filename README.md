@@ -11,6 +11,16 @@ Upload the .json and .py files to simulate the projects.
 
 ---
 
+![LCD Screen](src/tutorials/ssd1306_oled_screen/001/project/002.webp)
+
+![HC-SR04 Ultrasonic Distance Sensor](src/tutorials/hc-sr04_ultrasonic_distance_sensor/001/project/001.webp)
+
+![PIR Motion Light](src/tutorials/pir_motion_light/001/project/001.webp)
+
+![Servo Day or Night](src/tutorials/servo_day_or_night/001/project/001.webp)
+
+---
+
 ### How to Download this App
 1. Click the green Code Button on this github page
 2. Choose Download ZIP
