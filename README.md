@@ -26,7 +26,9 @@ Upload the .json and .py files to simulate the projects.
 ---
 
 ## [OLED Screen](src/tutorials/ssd1306_oled_screen)
-![OLED Screen](src/tutorials/ssd1306_oled_screen/001/project/002.webp)
+![OLED Screen](src/tutorials/ssd1306_oled_screen/001/project/003.webp)
+
+https://wokwi.com/projects/470764051910411265
 
 ---
 
