@@ -38,7 +38,7 @@ https://wokwi.com/projects/470750842620152833
 ---
 
 # [PIR Motion Light](src/tutorials/pir_motion_light)
-![PIR Motion Light](src/tutorials/pir_motion_light/001/project/001.webp)
+![PIR Motion Light](src/tutorials/pir_motion_light/001/project/002.webp)
 
 https://wokwi.com/projects/470754661922108417
 
