@@ -40,6 +40,8 @@ https://wokwi.com/projects/470750842620152833
 # [PIR Motion Light](src/tutorials/pir_motion_light)
 ![PIR Motion Light](src/tutorials/pir_motion_light/001/project/001.webp)
 
+https://wokwi.com/projects/470754661922108417
+
 --- 
 
 ## [Servo Day or Night](src/tutorials/servo_day_or_night)
