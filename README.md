@@ -11,7 +11,17 @@ Upload the .json and .py files to simulate the projects.
 
 ## [Upload_File(s)](src/tutorials/upload_file(s))
 
+## Delete diagram.json
+![Delete diagram.json](src/tutorials/upload_file(s)/delete_diagram.webp)
+
+## Delete main.py
+![Delete main.py](src/tutorials/upload_file(s)/delete_main.webp)
+
+## Upload Files
 ![Upload_File(s)](src/tutorials/upload_file(s)/upload_file(s).webp)
+
+## Upload diagram.json and main.py files
+![Upload diagram and main files](src/tutorials/upload_file(s)/upload_diagram_main_files.webp)
 
 ---
 
