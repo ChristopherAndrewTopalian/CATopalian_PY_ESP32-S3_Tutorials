@@ -45,7 +45,9 @@ https://wokwi.com/projects/470754661922108417
 --- 
 
 ## [Servo Day or Night](src/tutorials/servo_day_or_night)
-![Servo Day or Night](src/tutorials/servo_day_or_night/001/project/001.webp)
+![Servo Day or Night](src/tutorials/servo_day_or_night/001/project/002.webp)
+
+https://wokwi.com/projects/470763284461526017
 
 ---
 
