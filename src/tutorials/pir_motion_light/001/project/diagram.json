@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "Anonymous maker",
+  "author": "Christopher Andrew Topalian",
   "editor": "wokwi",
   "parts": [
     {
@@ -10,17 +10,23 @@
       "left": 0,
       "attrs": { "env": "micropython-20260406-v1.28.0", "flashSize": "8" }
     },
-    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": 13.6, "left": -170.58, "attrs": {} },
-    { "type": "wokwi-led", "id": "led1", "top": 15.6, "left": 128.6, "attrs": { "color": "red" } }
+    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": 13.6, "left": -112.98, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 15.6,
+      "left": 109.8,
+      "attrs": { "color": "red", "flip": "1" }
+    }
   ],
   "connections": [
     [ "esp:TX", "$serialMonitor:RX", "", [] ],
     [ "esp:RX", "$serialMonitor:TX", "", [] ],
-    [ "pir1:GND", "esp:GND.2", "black", [ "v0" ] ],
-    [ "pir1:VCC", "esp:3V3.2", "red", [ "v0" ] ],
     [ "pir1:OUT", "esp:14", "green", [ "v0" ] ],
     [ "led1:A", "esp:2", "green", [ "v0" ] ],
-    [ "led1:C", "esp:GND.3", "green", [ "v0" ] ]
+    [ "led1:C", "esp:GND.3", "green", [ "v0" ] ],
+    [ "esp:5V", "pir1:VCC", "red", [ "h0" ] ],
+    [ "pir1:GND", "esp:GND.1", "black", [ "v0" ] ]
   ],
   "dependencies": {}
 }
