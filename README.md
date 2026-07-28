@@ -9,6 +9,10 @@ Start a New ESP32-S3 project
 
 Upload the .json and .py files to simulate the projects.
 
+## [Upload_File(s)](src/tutorials/upload_file(s))
+
+![Upload_File(s)](src/tutorials/upload_file(s)/upload_file(s).webp)
+
 ---
 
 ## [OLED Screen](src/tutorials/ssd1306_oled_screen)
