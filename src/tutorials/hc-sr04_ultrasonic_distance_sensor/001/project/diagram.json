@@ -10,8 +10,20 @@
       "left": 0,
       "attrs": { "env": "micropython-20260406-v1.28.0", "flashSize": "8" }
     },
-    { "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": 20.7, "left": -196.1, "attrs": {} },
-    { "type": "wokwi-led", "id": "led1", "top": 15.6, "left": 119, "attrs": { "color": "red" } }
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic1",
+      "top": 20.7,
+      "left": -196.1,
+      "attrs": { "distance": "318" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 15.6,
+      "left": 119,
+      "attrs": { "color": "red", "flip": "1" }
+    }
   ],
   "connections": [
     [ "esp:TX", "$serialMonitor:RX", "", [] ],
