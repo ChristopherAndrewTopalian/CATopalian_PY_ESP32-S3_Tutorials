@@ -6,28 +6,22 @@
     {
       "type": "board-esp32-s3-devkitc-1",
       "id": "esp",
-      "top": -0.18,
-      "left": 4.57,
-      "attrs": { "env": "micropython-20231227-v1.22.0", "flashSize": "8" }
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20260406-v1.28.0", "flashSize": "8" }
     },
-    {
-      "type": "wokwi-hc-sr04",
-      "id": "ultrasonic1",
-      "top": 49.5,
-      "left": -205.7,
-      "attrs": { "distance": "96" }
-    },
-    { "type": "wokwi-led", "id": "led1", "top": 6, "left": 99.8, "attrs": { "color": "red" } }
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": 20.7, "left": -196.1, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": 15.6, "left": 119, "attrs": { "color": "red" } }
   ],
   "connections": [
     [ "esp:TX", "$serialMonitor:RX", "", [] ],
     [ "esp:RX", "$serialMonitor:TX", "", [] ],
     [ "ultrasonic1:VCC", "esp:5V", "red", [ "v0" ] ],
-    [ "ultrasonic1:GND", "esp:GND.1", "black", [ "v0" ] ],
+    [ "ultrasonic1:TRIG", "esp:4", "green", [ "v0" ] ],
     [ "ultrasonic1:ECHO", "esp:5", "green", [ "v0" ] ],
-    [ "led1:A", "esp:2", "green", [ "v0" ] ],
-    [ "led1:C", "esp:GND.3", "green", [ "v0" ] ],
-    [ "esp:4", "ultrasonic1:TRIG", "green", [ "h-134.45", "v57.6" ] ]
+    [ "ultrasonic1:GND", "esp:GND.1", "black", [ "v0" ] ],
+    [ "esp:2", "led1:A", "green", [ "h0" ] ],
+    [ "led1:C", "esp:GND.3", "green", [ "v0" ] ]
   ],
   "dependencies": {}
 }
