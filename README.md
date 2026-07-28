@@ -9,7 +9,7 @@ Start a New ESP32-S3 project
 
 Upload the .json and .py files to simulate the projects.
 
-## [Upload_File(s)](src/tutorials/upload_file(s))
+## To Upload our files we first Delete the default files
 
 ## Delete diagram.json
 ![Delete diagram.json](src/tutorials/upload_file(s)/delete_diagram.webp)
