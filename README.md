@@ -53,6 +53,11 @@ https://wokwi.com/projects/470763284461526017
 
 ---
 
+## [Barometric Pressure Sensor](src/tutorials/bmp180_barometric_pressure_sensor)
+![Barometric Pressure Sensor](src/tutorials/bmp180_barometric_pressure_sensor/001/project/001.webp)
+
+---
+
 ### How to Download this App
 1. Click the green Code Button on this github page
 2. Choose Download ZIP
