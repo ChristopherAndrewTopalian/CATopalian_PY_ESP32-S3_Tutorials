@@ -33,7 +33,7 @@ Upload the .json and .py files to simulate the projects.
 ## [HC-SR04 Ultrasonic Distance Sensor](src/tutorials/hc-sr04_ultrasonic_distance_sensor)
 ![HC-SR04 Ultrasonic Distance Sensor](src/tutorials/hc-sr04_ultrasonic_distance_sensor/001/project/001.webp)
 
-https://wokwi.com/projects/470748274060369921
+https://wokwi.com/projects/470750842620152833
 
 ---
 
