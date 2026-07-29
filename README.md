@@ -65,7 +65,7 @@ https://wokwi.com/projects/470811527354166273
 ---
 
 ## [Barometric Pressure Sensor with OLED Screen](src/tutorials/bmp180_barometric_pressure_sensor_with_ssd1306_oled_screen)
-![Barometric Pressure Sensor with OLED Screen](src/tutorials/bmp180_barometric_pressure_sensor_with_ssd1306_oled_screen/001/project/001.webp)
+![Barometric Pressure Sensor with OLED Screen](src/tutorials/bmp180_barometric_pressure_sensor_with_ssd1306_oled_screen/001/project/002.webp)
 
 https://wokwi.com/projects/470811878050453505
 
