@@ -3,7 +3,6 @@ This tutorials series teaches MicroPython using ESP32-S3!
 
 ---
 
-
 <details>
 <summary> How to Run Simulations</summary>
 Running Simulations: Go to https://wokwi.com/micropython
@@ -59,7 +58,7 @@ https://wokwi.com/projects/470763284461526017
 ---
 
 ## [Barometric Pressure Sensor](src/tutorials/bmp180_barometric_pressure_sensor)
-![Barometric Pressure Sensor](src/tutorials/bmp180_barometric_pressure_sensor/001/project/001.webp)
+![Barometric Pressure Sensor](src/tutorials/bmp180_barometric_pressure_sensor/001/project/002.webp)
 
 https://wokwi.com/projects/470811527354166273
 
