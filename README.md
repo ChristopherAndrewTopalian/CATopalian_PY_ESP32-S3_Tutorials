@@ -67,6 +67,13 @@ https://wokwi.com/projects/470811878050453505
 
 ---
 
+---
+
+## [Servo Open and Close Constantly](src/tutorials/servo_open_and_close_constantly/001/project)
+![Servo Open and Close Constantly](src/tutorials/servo_open_and_close_constantly/001/project/001.webp)
+
+---
+
 ### How to Download this App
 1. Click the green Code Button on this github page
 2. Choose Download ZIP
