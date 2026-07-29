@@ -3,6 +3,9 @@ This tutorials series teaches MicroPython using ESP32-S3!
 
 ---
 
+
+<details>
+<summary> How to Run Simulations</summary>
 Running Simulations: Go to https://wokwi.com/micropython
 
 Start a New ESP32-S3 project
@@ -22,6 +25,8 @@ Upload the .json and .py files to simulate the projects.
 
 ## Upload diagram.json and main.py files
 ![Upload diagram and main files](src/tutorials/upload_file(s)/upload_diagram_main_files.webp)
+
+</details>
 
 ---
 
