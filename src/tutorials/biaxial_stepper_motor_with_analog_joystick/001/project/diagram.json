@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "author": "Christopher Andrew Topalian",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-s3-devkitc-1",
+      "id": "esp",
+      "top": -19.38,
+      "left": 100.57,
+      "attrs": { "env": "micropython-20260406-v1.28.0", "flashSize": "8" }
+    },
+    {
+      "type": "wokwi-biaxial-stepper",
+      "id": "stepper1",
+      "top": 92.36,
+      "left": -102.6,
+      "attrs": {}
+    },
+    { "type": "wokwi-a4988", "id": "drv1", "top": 62.4, "left": -216, "attrs": {} },
+    {
+      "type": "wokwi-analog-joystick",
+      "id": "joystick1",
+      "top": -58.2,
+      "left": -321,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "joystick1:VERT", "esp:4", "green", [ "v0" ] ],
+    [ "drv1:STEP", "esp:17", "magenta", [ "h86.4", "v-57.6" ] ],
+    [ "stepper1:B1-", "drv1:1B", "green", [ "h-86.4", "v-105.69" ] ],
+    [ "drv1:VDD", "esp:3V3.2", "red", [ "h48.15", "v-105.52" ] ],
+    [ "drv1:GND.2", "esp:GND.1", "black", [ "h48.15", "v134.48" ] ],
+    [ "drv1:RESET", "drv1:SLEEP", "yellow", [ "h-28.8", "v9.6" ] ],
+    [ "joystick1:GND", "esp:GND.1", "black", [ "v153.6", "h67.2", "v28.8", "h249.6", "v-19.2" ] ],
+    [ "joystick1:VCC", "esp:3V3.1", "red", [ "v0" ] ],
+    [ "drv1:GND.1", "esp:GND.1", "black", [ "v0" ] ],
+    [ "drv1:1A", "stepper1:B1+", "limegreen", [ "h67.35", "v57.68" ] ],
+    [ "drv1:2A", "stepper1:A1+", "green", [ "h28.95", "v96.08" ] ],
+    [ "drv1:DIR", "esp:16", "cyan", [ "h144", "v-48", "h19.2" ] ],
+    [ "stepper1:A1-", "drv1:2B", "yellow", [ "h-28.8", "v-412.8" ] ]
+  ],
+  "dependencies": {}
+}

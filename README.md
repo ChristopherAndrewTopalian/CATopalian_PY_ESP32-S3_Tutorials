@@ -78,6 +78,13 @@ https://wokwi.com/projects/470903393979908097
 
 ---
 
+## [Biaxial Stepper Motor with Analog Joystick](src/tutorials/biaxial_stepper_motor_with_analog_joystick/001/project)
+![biaxial_stepper_motor_with_analog_joystick](src/tutorials/biaxial_stepper_motor_with_analog_joystick/001/project/001.webp)
+
+
+
+---
+
 ### How to Download this App
 1. Click the green Code Button on this github page
 2. Choose Download ZIP
