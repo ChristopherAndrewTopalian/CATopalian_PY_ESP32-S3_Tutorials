@@ -108,7 +108,7 @@ Happy Scripting :-)
 //----//  
 
 // Dedicated to God the Father  
-// MIT License Copyright (c) 2026 Christopher Andrew Topalian  
+// Copyright (c) 2026 Christopher Andrew Topalian  
 // https://github.com/ChristopherTopalian  
 // https://github.com/ChristopherAndrewTopalian  
 // https://sites.google.com/view/CollegeOfScripting
