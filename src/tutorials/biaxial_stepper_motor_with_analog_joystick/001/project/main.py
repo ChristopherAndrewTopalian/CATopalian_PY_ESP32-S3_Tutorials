@@ -1,7 +1,7 @@
 from machine import Pin, ADC
 import time
 
-# ==========================================
+# ==================
 # HARDWARE PIN SETUP
 # Direction (DIR) and Step (STEP) control pins for the A4988 driver
 dir_pin = Pin(16, Pin.OUT)
@@ -11,9 +11,9 @@ step_pin = Pin(17, Pin.OUT)
 joystick_y = ADC(Pin(4))
 joystick_y.atten(ADC.ATTN_11DB)  # Configures pin to read full 0V - 3.3V range
 
-# ==========================================
+# ==================
 # TUNING PARAMETERS
-# ==========================================
+# ==================
 # Joystick resting deadzone thresholds (0 to 65535 scale)
 LOWER_DEADZONE = 20000
 UPPER_DEADZONE = 45000
@@ -21,11 +21,11 @@ UPPER_DEADZONE = 45000
 # Speed delay in microseconds (Lower = Faster, Higher = Slower)
 STEP_DELAY_US = 1000  
 
-print("--- ROBOTIC ARM STEPPER SYSTEM READY ---")
+print("ROBOTIC ARM STEPPER SYSTEM READY")
 
-# ==========================================
+# ==================
 # CONTROL LOOP
-# ==========================================
+# ==================
 while True:
     # Read the physical analog position of the joystick (0 to 65535)
     y_val = joystick_y.read_u16()
