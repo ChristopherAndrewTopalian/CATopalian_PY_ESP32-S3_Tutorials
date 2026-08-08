@@ -1,6 +1,14 @@
 # CATopalian PY ESP32-S3 Tutorials
 This tutorials series teaches MicroPython using ESP32-S3!
 
+WARNING: The ESP32 is from China and many noteworthy news stories regarding SECURITY issues have arisen lately!
+
+I SUGGEST THAT YOU NEVER BUY A ESP32 AND USE IT IN ANY SYSTEM!
+
+Treat anything from China as though it is compromised 100%, because more than likely it is!
+
+Again, do NOT buy an ESP32 and do NOT put it on your wireless network!
+
 ---
 
 <details>
